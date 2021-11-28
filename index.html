@@ -131,7 +131,7 @@
                     <h1 class="heading">喜歡探究底層原理的後端工程師</h1>
                     <p class="para_text">
                       我喜歡探究軟體的技術堆疊和工作原理，寫擴充功能來驗證想法。
-                      我認為資深工程師要有創意地學以致用，善於觀察優秀軟體，從中獲得洞見，再創新組合，以解決實際的問題。
+                      我認為軟體的本質是服務，而軟體的成本與可變性是競爭的關鍵；因此工程師要有創意地學以致用，善於觀察優秀軟體，從中獲得洞見，再創新組合，以解決實際的問題。
                       我的開發主力是 Python 後端，尤其精於 Web Service，從分析、設計、開發 Django Application，
                       到 API Gateway 建置與系統維運。
                       我目前服務於資拓宏宇氣象團隊，曾主導超過7個專案的開發，包括中央氣象局監控系統；今年以來也擔任過OP、
@@ -171,7 +171,7 @@
                   </div>
                   <div class="col ">
                     <h4>開發框架</h4>
-                    <p>Django/Flask、Web API、Design & Develop & Test</p>
+                    <p>Django/Flask、SQLAlcamy、Web API、Design & Develop & Test</p>
                   </div>
                   <div class="col ">
                     <h4>系統維運</h4>
@@ -248,8 +248,24 @@
                             class="logo-light default" />
                     </a>
                       <br />
-                      <h4 class="mt-5">
-                        二、開發氣象局西北太平洋資料庫 API Gateway
+                      <h4 class="mt-5">二、維運申購系統</h4>
+
+                      <p class="para_text">
+                        <ul>
+                        <li> 系統解決方案設計 </li>
+                        <li> 郵局 Web ATM 銷賬串接  </li>
+                        <li> 幫助新進同仁解決開發問題 </li>
+                        </ul>
+                      </p>
+
+                      <a href="javascript:void(0)" title="Logo" class="logo scroll">
+                        <!--Logo Default-->
+                        <img src="img/hdps.jpg" alt="hdps"
+                            class="logo-light default" />
+                    </a>
+                      <br />
+
+                      <h4 class="mt-5"> 三、開發氣象局西北太平洋資料庫 API Gateway
                       </h4>
                       <p class="para_text">
                         氣象局面向學術單位下載海象資料的 API，希望有一套資源保護機制。我提供的 Solution 是導入 Kong，建立 API Gateway 保護層。工作內容包括：
@@ -258,7 +274,7 @@
                         <li> 為了和既有的上游 APIs 兼容，需要自行寫 Kong 的 Plugins
                       </p>
                       <br />
-                      <h4 class="mt-5">三、後端ETL程式開發</h4>
+                      <h4 class="mt-5">四、後端ETL程式開發</h4>
                       <p class="para_text">
                         採用 Pipeline 架構風格，Pipeline 的起點有三種方式：時間驅動、檔案到位事件、Webhook。
                         主要是利用petl、pandas、xpath等套件，對XML檔案執行Extract、transform、load等等以管道串聯的篩選器任務，最後把資料寫入 DB。
@@ -308,15 +324,7 @@
                     <h1 class="heading">個人專案</h1>
                 </div>
                 <div class="d-inline-block">
-                    <h4 class="">一、隨選地理資料後端解決方案</h4>
-                    <p class="para_text">
-                        蒐集氣象局 10 種以上的 Opendata，透過 RESTful API 供您隨選資料集。核心技術包括 Geodjango、MySQL Spatial Data。
-                    </p>
-                    <a href="http://geoapi.yinlong.link" class="float-right">
-                        <button class="btn-small btn-blue btn">more details</button>
-                    </a>
-                    <br>
-                    <h4 class="mt-5">二、基於組織的 ACL 系統</h4>
+                    <h4 class="mt-5">一、基於組織的 ACL 系統</h4>
                     <p class="para_text">
                         方便您管理使用者在那個組織，可以用什麼功能存取什麼資源。工作內容包含 MySQL
                         資料庫設計、Django RestFramework
@@ -324,6 +332,14 @@
                         CI/CD的實現。
                     </p>
                     <a href="https://hackmd.io/8WYBJ_HSSbeUZ6alDowv-A?view" class="float-right">
+                        <button class="btn-small btn-blue btn">more details</button>
+                    </a>
+                    <br>
+                    <h4 class="">二、隨選地理資料後端解決方案</h4>
+                    <p class="para_text">
+                        蒐集氣象局 10 種以上的 Opendata，透過 RESTful API 供您隨選資料集。核心技術包括 Geodjango、PostgreSQL spatial-data。
+                    </p>
+                    <a href="http://geoapi.yinlong.link" class="float-right">
                         <button class="btn-small btn-blue btn">more details</button>
                     </a>
                     <br>
